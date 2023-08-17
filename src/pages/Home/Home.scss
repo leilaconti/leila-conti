@@ -1,0 +1,18 @@
+$medium: 700px;
+
+.heroImageBackground {
+    background-color: rgba(0, 0, 0, 0.247);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: $medium) {
+    .heroImageBackground {
+        padding-left: 40px;
+    }
+}
