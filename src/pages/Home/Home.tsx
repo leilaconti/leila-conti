@@ -9,7 +9,7 @@ export const Home = () => {
         <>
             <Header />
             <div className="heroImageBackground">
-                <HeroImage /> 
+                <HeroImage />
                 <SocialButtons />
             </div>
         </>
