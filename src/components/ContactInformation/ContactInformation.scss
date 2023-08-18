@@ -1,0 +1,12 @@
+.contactInfo {
+    display: flex;
+    width: 100px;
+    align-items: baseline;
+}
+
+.contactAlign {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 20px;
+}
