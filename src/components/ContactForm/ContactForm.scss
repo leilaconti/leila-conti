@@ -1,0 +1,17 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFields {
+    width: 100px;
+}
+
+.submitButton {
+    margin-top: 12px;
+    width: 150px;
+}
+
+.fieldLabel {
+    font-size: 16px;
+}
