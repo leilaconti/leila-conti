@@ -1,6 +1,65 @@
+$medium: 700px;
+
 button {
     border-radius: 16px;
     font-size: 20px;
     padding: 10px;
-    background-color: red;
+    background-color: white;
+}
+
+.avatarImage {
+    height: 150px;
+    border-radius: 40px;
+}
+
+.containerHero {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroContainer {
+    width: fit-content;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.container div {
+    box-sizing: border-box;
+    color: white;
+    font: 24px sans-serif;
+}
+
+.one {
+    flex-basis: 441px;
+    flex-grow: 2;
+    align-self: center;
+}
+
+.two {
+    flex-basis: 220px;
+    flex-grow: 1;
+    height: 450px;
+    max-width: 315px;
+    align-self: center;
+    border-radius: 80px;
+}
+
+@media screen and (max-width: $medium) {
+    .two {
+        height: 250px;
+        max-width: 165px;
+    }
 }
