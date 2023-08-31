@@ -1,13 +1,13 @@
 import React from 'react';
 import { Header } from '../../components/Header/Header';
-// import { ContactInformation } from '../../components/ContactInformation/ContactInformation';
-// import graduation from '../../Images/graduation.jpg';
-import wip from '../../assets/images/wip.png';
+import education from '../../assets/images/timeline.jpg';
+import './Education.scss';
 
 export const Education = (ref: any) => {
     return (
         <>
         <Header />
+        <h1 className='heading'>Education</h1>
          <div
                 style={{
                     alignItems: 'center',
@@ -15,14 +15,8 @@ export const Education = (ref: any) => {
                     justifyContent: 'center'
                 }}
             >
-                <img src={wip} />
+                <img className='timelineImage' src={education} />
             </div>
-            {/* <Header />
-            <ContactInformation
-                image={graduation}
-                heading="Royal Holloway, University of London"
-                information="BSc Computer Science 2.1"
-            /> */}
         </>
     );
 };
