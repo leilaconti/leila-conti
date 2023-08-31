@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from '../../components/Header/Header';
-import { ContactInformation } from '../../components/ContactInformation/ContactInformation';
-import graduation from '../../Images/graduation.jpg';
+// import { ContactInformation } from '../../components/ContactInformation/ContactInformation';
+// import graduation from '../../Images/graduation.jpg';
 import wip from './wip.jpg';
 
 export const About = (ref: any) => {
