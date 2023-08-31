@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from '../../components/Header/Header';
 // import { ContactInformation } from '../../components/ContactInformation/ContactInformation';
 // import graduation from '../../Images/graduation.jpg';
-import wip from './wip.jpg';
+import wip from '../../assets/images/wip.png';
 
 export const Experience = (ref: any) => {
     return (
