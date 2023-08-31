@@ -5,12 +5,13 @@ import { ContactInformation } from '../../components/ContactInformation/ContactI
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { ContactForm } from '../../components/ContactForm/ContactForm';
+import wip from './wip.jpg';
 
-export const Contact = () => {
+export const Contact = (ref: any) => {
     return (
         <>
             <Header />
-            <div className="container">
+            {/* <div className="contactContainer">
                 <div>
                     <ContactInformation
                         icon={<LocationOnIcon />}
@@ -29,7 +30,16 @@ export const Contact = () => {
                     />
                 </div>
 
-                <ContactForm />
+                <ContactForm /> */}
+            {/* </div> */}
+            <div
+                style={{
+                    alignItems: 'center',
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}
+            >
+                <img src={wip} />
             </div>
         </>
     );
