@@ -1,17 +1,32 @@
 .contactForm {
     display: flex;
     flex-direction: column;
-}
-
-.inputFields {
-    width: 100px;
+    justify-content: center;
+    background-color: #F6E8FC;
+    border-radius: 12px;
+    padding: 50px;
 }
 
 .submitButton {
     margin-top: 12px;
     width: 150px;
+    border-radius: 12px;
+    background-color: #F6E8FE;
+    font-size: 18px;
 }
 
 .fieldLabel {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.inputFields {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 40px;
+}
+
+.messageField {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 60px;
 }

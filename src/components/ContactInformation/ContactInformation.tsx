@@ -2,7 +2,8 @@ import React, { ReactNode } from 'react';
 import './ContactInformation.scss';
 
 interface ContactInformationProps {
-    icon: ReactNode;
+    icon?: ReactNode;
+    image?: string;
     heading: string;
     information: string;
 }
@@ -10,14 +11,16 @@ interface ContactInformationProps {
 export const ContactInformation = ({
     icon,
     heading,
-    information
+    information,
+    image
 }: ContactInformationProps) => {
     return (
         <div>
             <div className="contactInfo">
                 {icon}
+                {image && <img className="image" src={image} />}
                 <div className="contactAlign">
-                    <h4>{heading}</h4>
+                    <h5>{heading}</h5>
                     <p>{information}</p>
                 </div>
             </div>

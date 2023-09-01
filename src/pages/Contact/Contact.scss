@@ -1,9 +1,17 @@
-.container {
-    min-height: 100vh;
+.contactContainer {
     display: flex;
+    flex-wrap: wrap-reverse;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     font-size: calc(10px + 2vmin);
     color: black;
-    padding-left: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.contactHeading {
+    display: flex;
+    justify-content: center;
 }
